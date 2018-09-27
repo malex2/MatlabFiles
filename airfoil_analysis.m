@@ -10,4 +10,5 @@ y3      = [y_top y2];
 plot(x3,y3)
 axis equal
 grid on
-z=[x3 y3]
+z=[x3 y3];
+fprintf('x = [%2.4f %2.4f]\n',z(1),z(2))
